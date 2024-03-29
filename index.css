@@ -16,18 +16,18 @@ html,body{
     align-items: center;
     justify-self: center;
     align-self: center;
-    background-color: #FAC898;
-    width:60px;
-    height:60px;
+    background-color: #FAC898; /* Customizable */
+    width:60px; /* Customizable */
+    height:60px; /* Customizable */
     cursor:pointer;
-    border-radius: 10px;
+    border-radius: 10px; /* Customizable */
 }
 
 #calculator{
     font-family: "Noto Sans", sans-serif;
-    background-color: #FFFFCC;
-    width: 350px;
-    border:#FFB6C1 2pt solid;
+    background-color: #FFFFCC; /* Customizable */
+    width: 350px; /* Customizable */
+    border:#FFB6C1 2pt solid; /* Customizable */
     display:grid;
     grid-template-areas: 
     "result result result result"
@@ -39,7 +39,7 @@ html,body{
     ;
     gap:10px;
     padding:5px;
-    border-radius: 5px;
+    border-radius: 5px;/* Customizable */
     font-size: 25px;
 }
 
@@ -48,7 +48,7 @@ html,body{
 }
 
 #result{
-    background-color: white;
+    background-color: white; /* Customizable */
     grid-area:result;
     width: 100%;
     height:60px;
